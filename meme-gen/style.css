@@ -1,0 +1,75 @@
+
+body{
+    background-color: pink;
+}
+
+div{
+    background-color: transparent;
+    margin: 50px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+margin: 20px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+label{
+    font-weight: bold;
+}
+input{
+margin:15px;
+border: 2px solid black;
+}
+
+#container2{
+display:flex;
+}
+
+.memeBox{
+    display:relative;
+}
+
+.textBtn{
+
+    color: beige;
+    text-align: center;
+
+}
+.textTop{
+
+    color: beige;
+    text-align: center;
+}
+
+.img{
+    position:absolute;
+    height: 20vh;
+    width: auto;
+    display:absolute;
+    z-index:-1;
+
+}
+.deleteBtm{
+    background-color: azure;
+}
+
+#container2.memeBox{
+    display:none;
+}
+
+#container2{
+    display:block;
+}
+
+
+
+
+
+
+
+
